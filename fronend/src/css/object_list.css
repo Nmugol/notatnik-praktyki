@@ -1,0 +1,45 @@
+.add-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-weight: bold;
+
+    input{
+        background-color: var(--bg-color2)!important;
+    }
+
+    label{
+        margin: 0.2rem;
+    }
+
+    button{
+        font-size: 1.1rem;
+        background-color: var(--bg-color2);
+        border-radius: 5rem;
+        margin: 0.3rem;
+        padding: 0.3rem 0.5rem;
+        font-weight: bold;
+    }
+
+    button:hover{
+        background-color: var(--correct-color);
+        color: white;
+    }
+}
+
+.heading{
+    margin: 1rem;
+}
+
+.list-of-objects
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1.3rem;
+
+}
